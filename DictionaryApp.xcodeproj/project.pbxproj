@@ -15,6 +15,9 @@
 		2CFC0A2B233D08E5009A86AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A2A233D08E5009A86AA /* main.m */; };
 		2CFC0A35233D08E5009A86AA /* DictionaryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A34233D08E5009A86AA /* DictionaryAppTests.m */; };
 		2CFC0A40233D08E5009A86AA /* DictionaryAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A3F233D08E5009A86AA /* DictionaryAppUITests.m */; };
+		2CFC0A52233D09D0009A86AA /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A51233D09D0009A86AA /* WordDetailViewController.m */; };
+		2CFC0A55233D09E8009A86AA /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A54233D09E8009A86AA /* Word.m */; };
+		2CFC0A58233D09F2009A86AA /* WordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0A57233D09F2009A86AA /* WordManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		2CFC0A3B233D08E5009A86AA /* DictionaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFC0A3F233D08E5009A86AA /* DictionaryAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryAppUITests.m; sourceTree = "<group>"; };
 		2CFC0A41233D08E5009A86AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFC0A50233D09D0009A86AA /* WordDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
+		2CFC0A51233D09D0009A86AA /* WordDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
+		2CFC0A53233D09E8009A86AA /* Word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		2CFC0A54233D09E8009A86AA /* Word.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		2CFC0A56233D09F2009A86AA /* WordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManager.h; sourceTree = "<group>"; };
+		2CFC0A57233D09F2009A86AA /* WordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				2CFC0A26233D08E5009A86AA /* LaunchScreen.storyboard */,
 				2CFC0A29233D08E5009A86AA /* Info.plist */,
 				2CFC0A2A233D08E5009A86AA /* main.m */,
+				2CFC0A50233D09D0009A86AA /* WordDetailViewController.h */,
+				2CFC0A51233D09D0009A86AA /* WordDetailViewController.m */,
+				2CFC0A53233D09E8009A86AA /* Word.h */,
+				2CFC0A54233D09E8009A86AA /* Word.m */,
+				2CFC0A56233D09F2009A86AA /* WordManager.h */,
+				2CFC0A57233D09F2009A86AA /* WordManager.m */,
 			);
 			path = DictionaryApp;
 			sourceTree = "<group>";
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFC0A55233D09E8009A86AA /* Word.m in Sources */,
 				2CFC0A20233D08E4009A86AA /* ViewController.m in Sources */,
 				2CFC0A2B233D08E5009A86AA /* main.m in Sources */,
+				2CFC0A58233D09F2009A86AA /* WordManager.m in Sources */,
 				2CFC0A1D233D08E4009A86AA /* AppDelegate.m in Sources */,
+				2CFC0A52233D09D0009A86AA /* WordDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
